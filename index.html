@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Speed Wizardz | Επιστροφή</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0a0a0a;
+      color: #eee;
+    }
+
+    header {
+      background: url('banner.jpg') center/cover no-repeat;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-shadow: 2px 2px 8px black;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3em;
+      color: cyan;
+    }
+
+    nav {
+      background-color: #111;
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      padding: 15px 0;
+    }
+
+    nav a {
+      color: #0ff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: white;
+    }
+
+    section {
+      padding: 40px 20px;
+      text-align: center;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    section h2 {
+      color: #0ff;
+      margin-bottom: 15px;
+    }
+
+    .coming-soon {
+      background-color: #111;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 0 15px #0ff3;
+    }
+
+    footer {
+      background: #111;
+      text-align: center;
+      padding: 20px;
+      color: #777;
+      font-size: 0.9em;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Speed Wizardz επιστρέφουν.</h1>
+  </header>
+
+  <nav>
+    <a href="#">Αρχική</a>
+    <a href="#meetups">Meetups</a>
+    <a href="#gallery">Φωτογραφίες</a>
+    <a href="https://www.instagram.com/speed_wizardz/" target="_blank">Instagram</a>
+  </nav>
+
+  <section class="coming-soon" id="meetups">
+    <h2>⚡ Κάτι μεγάλο έρχεται σύντομα</h2>
+    <p>Μείνετε συντονισμένοι... Ένα νέο event ετοιμάζεται στους δρόμους της Αθήνας.</p>
+    <p>📍 Τα σημεία συνάντησης θα ανακοινωθούν μέσω Instagram!</p>
+  </section>
+
+  <section id="gallery">
+    <h2>📸 Gallery</h2>
+    <p>Δες τις παλιές μας στιγμές, το πάθος και την ένταση των Speed Wizardz.</p>
+    <img src="1.png" alt="Speed Wizardz Banner" style="width: 100%; border-radius: 8px;" />
+  </section>
+
+  <footer>
+    © 2025 Speed Wizardz | Contact: @speed_wizardz
+  </footer>
+
+</body>
+</html>
